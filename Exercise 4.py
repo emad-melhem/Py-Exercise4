@@ -63,9 +63,10 @@ try:
             second_str += " of the second year."
             
         print(f"{employee_name} was sick the most in quarter {first_str} {second_str}")
+        # the end of new year codes.
+        
     else:
         raise IndexError("This list doesn’t have the right size")
-    
     
     
 except IndexError as error:
