@@ -4,7 +4,7 @@ class Exercise2:
     
     # the lengt of list
     lst_leng=0
-    def __init__(self) -> None:
+    def __init__(self):
         # repeat until condition is met.
         while not self._getListLength():
             continue
