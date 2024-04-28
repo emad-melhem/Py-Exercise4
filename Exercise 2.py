@@ -13,6 +13,7 @@ class Exercise2:
     #return true if length of list >=3 and <=10 and set the value to lst_leng
     def _getListLength(self):
         x = input("Enter the length of list :")
+        retresult = False
         if x.isnumeric() and int(x) >= 3 and int(x) <= 10:
             self.lst_leng = int(x)
             retresult=True
